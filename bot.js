@@ -14,4 +14,7 @@ client.on('ready', () => {
       client.guilds.get('428228155309031424').roles.find('name', 'Rainbow').edit({color: 'RANDOM'})
         
     },5000);
-}).login('NDcwMDE3NzY5MDE5MDE1MTY5.Djx0WA.NGCuyc8GLgTD4oWl_ia_hM9VraI');
+	
+	
+	client.login(process.env.BOT_TOKEN);
+
