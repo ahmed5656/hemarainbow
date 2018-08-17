@@ -13,6 +13,7 @@ client.on('ready', () => {
       client.guilds.get('474579280626581505').roles.find('name', 'Rainbow').edit({color: 'RANDOM'})
       client.guilds.get('428228155309031424').roles.find('name', 'Rainbow').edit({color: 'RANDOM'})
 	    client.guilds.get('450588636866412545').roles.find('name', 'Rainbow').edit({color: 'RANDOM'})
+	    client.guilds.get('368360473873219585').roles.find('name', 'Rainbow').edit({color: 'RANDOM'})
         
     },5000);
 	
